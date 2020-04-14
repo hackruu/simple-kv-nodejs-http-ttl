@@ -9,14 +9,15 @@ Install prereqs:
 #### Usage
 Run:
 ```node index.js```
-ENV variables:
+
+#### ENV variables:
 * PORT (default 8080) // 0 for random unused port
 * TTL (default 12000) // 2 minutes
 * DEBUG (default 0) // no debug messages in console
 * BIND (default 127.0.0.1) // bind to localhost
 * MAXSIZE (default 100) // keeping last 100 keys in memory, 0 for unlimited
 
-Run with parameters:
+#### Run with parameters:
 ```PORT=1234 TTL=60000 DEBUG=1 BIND=0.0.0.0 MAXSIZE=200 node index.js```
 
 #### Set key to value
