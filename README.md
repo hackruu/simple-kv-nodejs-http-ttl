@@ -10,6 +10,9 @@ Install prereqs:
 Run:
 ```node index.js```
 
+or:
+```npm start```
+
 #### ENV variables:
 * PORT (default 5000) // 0 for random unused port
 * TTL (default 12000) // 2 minutes
@@ -19,6 +22,9 @@ Run:
 
 #### Run with parameters:
 ```PORT=1234 TTL=60000 DEBUG=1 BIND=0.0.0.0 MAXSIZE=200 node index.js```
+
+#### Running in Heroku:
+Provided Procfile for running in Heroku with default parameters.
 
 #### Set key to value
 * HTTP GET /?key=value

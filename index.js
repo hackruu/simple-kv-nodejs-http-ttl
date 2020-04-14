@@ -4,7 +4,7 @@ const QuickLRU = require('quick-lru');
 
 const port = process.env.PORT || 5000;
 const bind = process.env.BIND || '127.0.0.1'
-const ttl = Number(process.env.TTL) || 12000; // 120 seconds
+const ttl = Number(process.env.TTL) || 120000; // 120 seconds
 const debug = Number(process.env.DEBUG) || 0;
 const maxsize = Number(process.env.MAXSIZE) || 100;
 
