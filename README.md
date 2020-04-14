@@ -11,7 +11,7 @@ Run:
 ```node index.js```
 
 #### ENV variables:
-* PORT (default 8080) // 0 for random unused port
+* PORT (default 5000) // 0 for random unused port
 * TTL (default 12000) // 2 minutes
 * DEBUG (default 0) // no debug messages in console
 * BIND (default 127.0.0.1) // bind to localhost
